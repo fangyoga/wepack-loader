@@ -37,8 +37,8 @@ module.exports = {
         test: /\.(js|jsx|ts|tsx)$/,
         include: /\.(js|jsx|ts|tsx)$/,
         use: {
-          loader: path.resolve(rootDir,'testLoader.js')
-        }
+          loader: path.resolve(rootDir, 'testLoader.js'),
+        },
       },
       {
         test: /\.(js|jsx|ts|tsx)$/,
